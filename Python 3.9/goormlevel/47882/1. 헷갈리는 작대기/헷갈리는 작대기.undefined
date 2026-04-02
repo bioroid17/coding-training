@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+# UTF-8 encoding when using korean
+user_input = input()
+nums = [0, 0, 0, 0]
+for letter in user_input:
+	if letter == '1':
+		nums[0] += 1
+	if letter == 'I':
+		nums[1] += 1
+	if letter == 'l':
+		nums[2] += 1
+	if letter == '|':
+		nums[3] += 1
+print (f"{nums[0]}\n{nums[1]}\n{nums[2]}\n{nums[3]}")
